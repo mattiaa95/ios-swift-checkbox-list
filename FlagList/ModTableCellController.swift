@@ -12,6 +12,6 @@ class ModTableCellController: UITableViewCell {
     
     @IBOutlet weak var titleLabelName: UILabel!
     @IBOutlet weak var imageFlag: UIImageView!
-    @IBOutlet weak var CheckBoxMod: SSRadioButton!
+    @IBOutlet weak var CheckBoxMod: RadioButton!
     
 }

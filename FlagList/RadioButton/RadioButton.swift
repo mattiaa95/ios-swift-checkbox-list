@@ -1,13 +1,13 @@
 //
-//  SSRadioButton.swift
-//  SampleProject
+//  RadioButton.swift
 //
+
 
 import Foundation
 import UIKit
 @IBDesignable
 
-class SSRadioButton: UIButton {
+class RadioButton: UIButton {
     
     fileprivate var circleLayer = CAShapeLayer()
     fileprivate var fillCircleLayer = CAShapeLayer()
@@ -16,7 +16,6 @@ class SSRadioButton: UIButton {
             toggleButon()
         }
     }
-    
     /**
      Color of the radio button circle. Default value is UIColor red.
      */
@@ -82,7 +81,6 @@ class SSRadioButton: UIButton {
         self.titleEdgeInsets = UIEdgeInsets(top: 0, left: (4*circleRadius + 4*circleLayer.lineWidth), bottom: 0, right: 0)
         self.toggleButon()
     }
-    
     /**
      Toggles selected state of the button.
      */

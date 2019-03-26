@@ -12,8 +12,7 @@
 		4903D81D2244FA8600F29755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903D81B2244FA8600F29755 /* Main.storyboard */; };
 		4903D81F2244FA9000F29755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4903D81E2244FA9000F29755 /* Assets.xcassets */; };
 		4903D8222244FA9000F29755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903D8202244FA9000F29755 /* LaunchScreen.storyboard */; };
-		4903D82A22450C6C00F29755 /* ListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903D82922450C6C00F29755 /* ListEnum.swift */; };
-		49E21319224A207200A746B9 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E21317224A207200A746B9 /* SSRadioButton.swift */; };
+		49E21319224A207200A746B9 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E21317224A207200A746B9 /* RadioButton.swift */; };
 		49E2131B224A272F00A746B9 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2131A224A272F00A746B9 /* Countries.swift */; };
 		49E2131D224A486900A746B9 /* UiViewRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2131C224A486900A746B9 /* UiViewRound.swift */; };
 		49F9BA00224900620007C297 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F9B9FF224900620007C297 /* countries.json */; };
@@ -28,8 +27,7 @@
 		4903D81E2244FA9000F29755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4903D8212244FA9000F29755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4903D8232244FA9000F29755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4903D82922450C6C00F29755 /* ListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEnum.swift; sourceTree = "<group>"; };
-		49E21317224A207200A746B9 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		49E21317224A207200A746B9 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		49E2131A224A272F00A746B9 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		49E2131C224A486900A746B9 /* UiViewRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewRound.swift; sourceTree = "<group>"; };
 		49F9B9FF224900620007C297 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
@@ -66,28 +64,43 @@
 		4903D8162244FA8600F29755 /* FlagList */ = {
 			isa = PBXGroup;
 			children = (
-				49E21315224A207200A746B9 /* SSRadioButtonController */,
+				49E2131F224A748000A746B9 /* Countries */,
+				49E2131E224A746C00A746B9 /* UiViewRound */,
+				49E21315224A207200A746B9 /* RadioButton */,
 				4903D8172244FA8600F29755 /* AppDelegate.swift */,
 				4903D8192244FA8600F29755 /* ViewController.swift */,
+				49F9BA01224928730007C297 /* ModTableCellController.swift */,
 				4903D81B2244FA8600F29755 /* Main.storyboard */,
-				49F9B9FF224900620007C297 /* countries.json */,
 				4903D81E2244FA9000F29755 /* Assets.xcassets */,
 				4903D8202244FA9000F29755 /* LaunchScreen.storyboard */,
 				4903D8232244FA9000F29755 /* Info.plist */,
-				4903D82922450C6C00F29755 /* ListEnum.swift */,
-				49F9BA01224928730007C297 /* ModTableCellController.swift */,
-				49E2131A224A272F00A746B9 /* Countries.swift */,
-				49E2131C224A486900A746B9 /* UiViewRound.swift */,
 			);
 			path = FlagList;
 			sourceTree = "<group>";
 		};
-		49E21315224A207200A746B9 /* SSRadioButtonController */ = {
+		49E21315224A207200A746B9 /* RadioButton */ = {
 			isa = PBXGroup;
 			children = (
-				49E21317224A207200A746B9 /* SSRadioButton.swift */,
+				49E21317224A207200A746B9 /* RadioButton.swift */,
 			);
-			path = SSRadioButtonController;
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		49E2131E224A746C00A746B9 /* UiViewRound */ = {
+			isa = PBXGroup;
+			children = (
+				49E2131C224A486900A746B9 /* UiViewRound.swift */,
+			);
+			path = UiViewRound;
+			sourceTree = "<group>";
+		};
+		49E2131F224A748000A746B9 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				49F9B9FF224900620007C297 /* countries.json */,
+				49E2131A224A272F00A746B9 /* Countries.swift */,
+			);
+			path = Countries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4903D82A22450C6C00F29755 /* ListEnum.swift in Sources */,
 				4903D81A2244FA8600F29755 /* ViewController.swift in Sources */,
 				4903D8182244FA8600F29755 /* AppDelegate.swift in Sources */,
 				49F9BA02224928730007C297 /* ModTableCellController.swift in Sources */,
 				49E2131B224A272F00A746B9 /* Countries.swift in Sources */,
-				49E21319224A207200A746B9 /* SSRadioButton.swift in Sources */,
+				49E21319224A207200A746B9 /* RadioButton.swift in Sources */,
 				49E2131D224A486900A746B9 /* UiViewRound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
