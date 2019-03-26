@@ -15,6 +15,7 @@
 		4903D82A22450C6C00F29755 /* ListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903D82922450C6C00F29755 /* ListEnum.swift */; };
 		49E21319224A207200A746B9 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E21317224A207200A746B9 /* SSRadioButton.swift */; };
 		49E2131B224A272F00A746B9 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2131A224A272F00A746B9 /* Countries.swift */; };
+		49E2131D224A486900A746B9 /* UiViewRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2131C224A486900A746B9 /* UiViewRound.swift */; };
 		49F9BA00224900620007C297 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F9B9FF224900620007C297 /* countries.json */; };
 		49F9BA02224928730007C297 /* ModTableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9BA01224928730007C297 /* ModTableCellController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		4903D82922450C6C00F29755 /* ListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEnum.swift; sourceTree = "<group>"; };
 		49E21317224A207200A746B9 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
 		49E2131A224A272F00A746B9 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		49E2131C224A486900A746B9 /* UiViewRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewRound.swift; sourceTree = "<group>"; };
 		49F9B9FF224900620007C297 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		49F9BA01224928730007C297 /* ModTableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModTableCellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 				4903D82922450C6C00F29755 /* ListEnum.swift */,
 				49F9BA01224928730007C297 /* ModTableCellController.swift */,
 				49E2131A224A272F00A746B9 /* Countries.swift */,
+				49E2131C224A486900A746B9 /* UiViewRound.swift */,
 			);
 			path = FlagList;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				49F9BA02224928730007C297 /* ModTableCellController.swift in Sources */,
 				49E2131B224A272F00A746B9 /* Countries.swift in Sources */,
 				49E21319224A207200A746B9 /* SSRadioButton.swift in Sources */,
+				49E2131D224A486900A746B9 /* UiViewRound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

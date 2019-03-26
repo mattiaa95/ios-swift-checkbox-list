@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
     var countries: [[Country]] = [[]]
     var section = ["A","B","C","D","E","G","H","I","J","M","N","P","S","L","T","U","V"]
 
@@ -54,7 +53,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 let jsonData = try decoder.decode(Countries.self, from: data)
                 return jsonData
             } catch {
-                print("error:\(error)")
+                print("Error Reading Data:\(error)")
             }
         }
         return nil

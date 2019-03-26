@@ -16,6 +16,7 @@ class SSRadioButton: UIButton {
             toggleButon()
         }
     }
+    
     /**
      Color of the radio button circle. Default value is UIColor red.
      */
@@ -40,7 +41,7 @@ class SSRadioButton: UIButton {
      Radius of RadioButton circle.
      */
     @IBInspectable var circleRadius: CGFloat = 5.0
-    @IBInspectable var cornerRadius: CGFloat {
+    @IBInspectable override var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
@@ -81,6 +82,7 @@ class SSRadioButton: UIButton {
         self.titleEdgeInsets = UIEdgeInsets(top: 0, left: (4*circleRadius + 4*circleLayer.lineWidth), bottom: 0, right: 0)
         self.toggleButon()
     }
+    
     /**
      Toggles selected state of the button.
      */
@@ -99,7 +101,7 @@ class SSRadioButton: UIButton {
     }
     
     fileprivate func fillCirclePath() -> UIBezierPath {
-        return UIBezierPath(ovalIn: circleFrame().insetBy(dx: 2, dy: 2))
+        return UIBezierPath(ovalIn: circleFrame().insetBy(dx: 4, dy: 4))
     }
     
     override func layoutSubviews() {
