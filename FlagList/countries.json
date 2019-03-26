@@ -1,0 +1,278 @@
+{
+    "Countries": [
+        [
+            {
+                "id": "ANT",
+                "name": "Antigua y Barbuda",
+                "image": "flag_ANT",
+                "checked":false
+            },
+            {
+                "id": "ARG",
+                "name": "Argentina",
+                "image": "flag_ARG",
+                "checked":false
+            },
+            {
+                "id": "ARU",
+                "name": "Aruba",
+                "image": "flag_ARU",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "BAH",
+                "name": "Bahamas",
+                "image": "flag_BAH",
+                "checked":false
+            },
+            {
+                "id": "BAR",
+                "name": "Barbados",
+                "image": "flag_BAR",
+                "checked":false
+            },
+            {
+                "id": "BIZ",
+                "name": "Belice",
+                "image": "flag_BIZ",
+                "checked":false
+            },
+            {
+                "id": "BER",
+                "name": "Bermudas",
+                "image": "flag_BER",
+                "checked":false
+            },
+            {
+                "id": "BOL",
+                "name": "Bolivia",
+                "image": "flag_BOL",
+                "checked":false
+            },
+            {
+                "id": "BRA",
+                "name": "Brasil",
+                "image": "flag_BRA",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "CAN",
+                "name": "Canadá",
+                "image": "flag_CAN",
+                "checked":false
+            },
+            {
+                "id": "CHI",
+                "name": "Chile",
+                "image": "flag_CHI",
+                "checked":false
+            },
+            {
+                "id": "COL",
+                "name": "Colombia",
+                "image": "flag_COL",
+                "checked":false
+            },
+            {
+                "id": "CRC",
+                "name": "Costa Rica",
+                "image": "flag_CRC",
+                "checked":false
+            },
+            {
+                "id": "CAY",
+                "name": "Islas Caimán",
+                "image": "flag_CAY",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "DMA",
+                "name": "Dominica",
+                "image": "flag_DMA",
+                "checked":false
+            },
+            {
+                "id": "DOM",
+                "name": "República Dominicana",
+                "image": "flag_DOM",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "ECU",
+                "name": "Ecuador",
+                "image": "flag_ECU",
+                "checked":false
+            },
+            {
+                "id": "ESA",
+                "name": "El Salvador",
+                "image": "flag_ESA",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "GRN",
+                "name": "Granada",
+                "image": "flag_GRN",
+                "checked":false
+            },
+            {
+                "id": "GUA",
+                "name": "Guatemala",
+                "image": "flag_GUA",
+                "checked":false
+            },
+            {
+                "id": "GUY",
+                "name": "Guyana",
+                "image": "flag_GUA",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "HAI",
+                "name": "Haití",
+                "image": "flag_HAI",
+                "checked":false
+            },
+            {
+                "id": "HON",
+                "name": "Honduras",
+                "image": "flag_HON",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "IVB",
+                "name": "Islas Vírgenes Británicas",
+                "image": "flag_IVB",
+                "checked":false
+            },
+            {
+                "id": "ISV",
+                "name": "Islas Vírgenes de los Estados Unidos",
+                "image": "flag_ISV",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "JAM",
+                "name": "Jamaica",
+                "image": "flag_JAM",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "MEX",
+                "name": "México",
+                "image": "flag_MEX",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "NCA",
+                "name": "Nicaragua",
+                "image": "flag_NCA",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "PAN",
+                "name": "Panamá",
+                "image": "flag_PAN",
+                "checked":false
+            },
+            {
+                "id": "PAR",
+                "name": "Paraguay",
+                "image": "flag_PAR",
+                "checked":false
+            },
+            {
+                "id": "PER",
+                "name": "Perú",
+                "image": "flag_PER",
+                "checked":false
+            },
+            {
+                "id": "PUR",
+                "name": "Puerto Rico",
+                "image": "flag_PUR",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "SKN",
+                "name": "San Cristóbal y Nieves",
+                "image": "flag_SKN",
+                "checked":false
+            },
+            {
+                "id": "SUR",
+                "name": "Surinam",
+                "image": "flag_SUR",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "LCA",
+                "name": "Santa Lucía",
+                "image": "flag_LCA",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "TRI",
+                "name": "Trinidad y Tobago",
+                "image": "flag_TRI",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "USA",
+                "name": "Estados Unidos",
+                "image": "flag_USA",
+                "checked":false
+            },
+            {
+                "id": "URU",
+                "name": "Uruguay",
+                "image": "flag_URU",
+                "checked":false
+            }
+        ],
+        [
+            {
+                "id": "VEN",
+                "name": "Venezuela",
+                "image": "flag_VEN",
+                "checked":false
+            },
+            {
+                "id": "VIN",
+                "name": "San Vicente y las Granadinas",
+                "image": "flag_VIN",
+                "checked":false
+            }
+        ]
+    ]
+}
