@@ -23,6 +23,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return self.section[section]
     }
     
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
+        view.tintColor = UIColor.white
+        let header = view as! UITableViewHeaderFooterView
+        header.textLabel?.textColor = UIColor.black
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
          return self.section.count
     }
