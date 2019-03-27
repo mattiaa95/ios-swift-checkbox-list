@@ -23,10 +23,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return self.section[section]
     }
     
-    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int){
-        view.tintColor = UIColor.white
-        let header = view as! UITableViewHeaderFooterView
-        header.textLabel?.textColor = UIColor.black
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let returnedView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 30))
+        returnedView.backgroundColor = .white
+        
+        let label = UILabel(frame: CGRect(x: 15, y: 0, width: view.frame.size.width, height: 15))
+        label.text = self.section[section]
+        label.textColor = .black
+        label.font = UIFont.boldSystemFont(ofSize: 17.0)
+        returnedView.addSubview(label)
+        
+        return returnedView
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let returnedView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 20))
+        returnedView.backgroundColor = .white
+         return returnedView
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

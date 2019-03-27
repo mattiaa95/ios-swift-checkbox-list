@@ -97,8 +97,8 @@
 		49E2131F224A748000A746B9 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
-				49F9B9FF224900620007C297 /* countries.json */,
 				49E2131A224A272F00A746B9 /* Countries.swift */,
+				49F9B9FF224900620007C297 /* countries.json */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
