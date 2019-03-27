@@ -12,14 +12,6 @@ import UIKit
 class UiViewRound: UIView {
 }
 
-@IBDesignable
-class DesignableButton: UIButton {
-}
-
-@IBDesignable
-class DesignableLabel: UILabel {
-}
-
 extension UIView {
     
     @IBInspectable

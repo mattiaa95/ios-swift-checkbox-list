@@ -1,5 +1,5 @@
 //
-//  ModTableCellController.swift
+//  CountrySportsTableViewCell.swift
 //  FlagList
 //
 //  Created by Mattia on 25/03/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ModTableCellController: UITableViewCell {
+class CountrySportsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabelName: UILabel!
     @IBOutlet weak var imageFlag: UIImageView!

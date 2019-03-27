@@ -38,7 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! ModTableCellController
+        let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! CountrySportsTableViewCell
         cell.titleLabelName.text = self.countries[indexPath.section][indexPath.row].name
         cell.imageFlag.image = UIImage.init(named: self.countries[indexPath.section][indexPath.row].image)
         cell.CheckBoxMod.isSelected = self.countries[indexPath.section][indexPath.row].checked
@@ -47,7 +47,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.countries[indexPath.section][indexPath.row].checked = !self.countries[indexPath.section][indexPath.row].checked
-        let cell = tableView.cellForRow(at: indexPath) as! ModTableCellController
+        let cell = tableView.cellForRow(at: indexPath) as! CountrySportsTableViewCell
         cell.CheckBoxMod.isSelected = !cell.CheckBoxMod.isSelected
     }
   

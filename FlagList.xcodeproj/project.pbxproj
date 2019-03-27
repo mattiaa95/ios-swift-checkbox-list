@@ -16,7 +16,7 @@
 		49E2131B224A272F00A746B9 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2131A224A272F00A746B9 /* Countries.swift */; };
 		49E2131D224A486900A746B9 /* UiViewRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E2131C224A486900A746B9 /* UiViewRound.swift */; };
 		49F9BA00224900620007C297 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 49F9B9FF224900620007C297 /* countries.json */; };
-		49F9BA02224928730007C297 /* ModTableCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9BA01224928730007C297 /* ModTableCellController.swift */; };
+		49F9BA02224928730007C297 /* CountrySportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9BA01224928730007C297 /* CountrySportsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		49E2131A224A272F00A746B9 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		49E2131C224A486900A746B9 /* UiViewRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewRound.swift; sourceTree = "<group>"; };
 		49F9B9FF224900620007C297 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
-		49F9BA01224928730007C297 /* ModTableCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModTableCellController.swift; sourceTree = "<group>"; };
+		49F9BA01224928730007C297 /* CountrySportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySportsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				49E21315224A207200A746B9 /* RadioButton */,
 				4903D8172244FA8600F29755 /* AppDelegate.swift */,
 				4903D8192244FA8600F29755 /* ViewController.swift */,
-				49F9BA01224928730007C297 /* ModTableCellController.swift */,
+				49F9BA01224928730007C297 /* CountrySportsTableViewCell.swift */,
 				4903D81B2244FA8600F29755 /* Main.storyboard */,
 				4903D81E2244FA9000F29755 /* Assets.xcassets */,
 				4903D8202244FA9000F29755 /* LaunchScreen.storyboard */,
@@ -177,7 +177,7 @@
 			files = (
 				4903D81A2244FA8600F29755 /* ViewController.swift in Sources */,
 				4903D8182244FA8600F29755 /* AppDelegate.swift in Sources */,
-				49F9BA02224928730007C297 /* ModTableCellController.swift in Sources */,
+				49F9BA02224928730007C297 /* CountrySportsTableViewCell.swift in Sources */,
 				49E2131B224A272F00A746B9 /* Countries.swift in Sources */,
 				49E21319224A207200A746B9 /* RadioButton.swift in Sources */,
 				49E2131D224A486900A746B9 /* UiViewRound.swift in Sources */,
